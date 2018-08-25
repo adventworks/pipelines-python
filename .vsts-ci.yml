@@ -6,7 +6,7 @@
 jobs:
 - job: 'Test'
   pool:
-    vmImage: 'Ubuntu 16.04'
+    vmImage: 'Hosted Linux Preview'
 
   steps:
   - task: UsePythonVersion@0
