@@ -5,6 +5,12 @@
 
 queue: 'Hosted Linux Preview'
 
+trigger:
+  branches:
+    include:
+    - refs/tags/*
+    - master
+    
 steps:
 - task: UsePythonVersion@0
   inputs:
